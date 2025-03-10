@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  <!--Font Family (find out how to input a default and where it needs to go)-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+
+<!--Navigation Bar - Ensures that every page is linked to the other-->
+<header>
+  <nav>
+    <ul>
+      <li class="logo"><a href="https://uxuicurriculum.wixsite.com/gulproast"><img src="https://assets.codepen.io/6306176/gulp-logo-light.png" /></a></li>
+      <li class="nav-text"><a href="index.html"> Home</a></li>
+      <li class="nav-text"><a href="about.html"> About</a></li>
+      <li class="nav-text"><a href="product.html"> Products</a></li>
+      <li class="nav-text"><a href="https://uxuicurriculum.wixsite.com/gulproast">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!--The Body of the page including the paragraphs & photos-->
+<div class="about-page">
+  <section class="about-main">
+    <article>
+       <h1>About Us</h1>
+       <p>Life without coffee is a gloomy place. That’s why Gulp Roast has been proudly serving up fresh coffee to the <a href="https://goo.gl/maps/3rAyszfwSDx8Si2Y9" target="_blank">San Francisco area</a> since 2000. Our coffee is locally sourced with the most delicious blends coming directly to your home, right from coffee farmers near you. Our coffee makes even the most difficult days just a tad easier to get through.</p>
+       <p>For us, this isn’t just brewing coffee. This is an active life mission to bring our customers the most flavorful, full-bodied beverages we can get our hands on. Browse our site to learn more about our locations and sourcing techniques.</p>
+        <a class="button" href="https://uxuicurriculum.wixsite.com/gulproast">Contact Us</a>
+    </article>
+    
+    <figure>
+      <img src="https://assets.codepen.io/6306176/gulp-pouring-coffee-horizontal.jpg" alt="Making pour-over coffee at our shop." />
+      <figcaption>Our pour-over coffee is known for its freshness and amazing taste.</figcaption>
+    </figure>
+  </section>
+</div>
+
+
+<!-- Footer includes the social media links-->
+<footer>
+  <p>&copy; edX Boot Camps LLC. This is not a coffee website. This is a fictitious company and scenario intended only for internal academic purposes.</p>
+  <ul>
+    <li>
+      <a href="https://facebook.com" target="_blank">
+        <img src="https://store-images.s-microsoft.com/image/apps.30645.9007199266245907.cb06f1f9-9154-408e-b4ef-d19f2325893b.ac3b465e-4384-42a8-9142-901c0405e1bc"/> 
+        <span aria-hidden="true" class="fa-brands fa-facebook-square"></span>
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com" target="_blank">
+        <img src="data:image/png;base64,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"/>
+        <span aria-hidden="true" class="fa-brands fa-twitter-square"></span>
+      </a>
+    </li>
+    <li>
+      <a href="https://instagram.com" target="_blank">
+        <img src="https://cdn-icons-png.freepik.com/256/15707/15707869.png?semt=ais_hybrid"/>
+        <span aria-hidden="true" class="fa-brands fa-instagram-square"></span>
+      </a>
+    </li>
+  </ul>
+</footer>
+</body>
+</html>
